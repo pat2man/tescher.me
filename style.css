@@ -1,0 +1,50 @@
+html {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  min-width: 100%;
+  min-height: 100%;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.container-fluid{
+  height:100%;
+  display:table;
+  width: 100%;
+  padding: 0;
+}
+
+.row-fluid {height: 100%; display:table-cell; vertical-align: middle;}
+
+.centering {
+  float:none;
+  margin:0 auto;
+}
+
+.profile_image {
+	width: 100px;
+	height: 100px;
+	border-radius: 50px;
+	-webkit-border-radius: 50px;
+	-moz-border-radius: 50px;
+    margin: 10px;
+	}
+
+.name h1 {
+    padding: 10px;
+    font-family: "source-sans-pro",sans-serif;
+    font-weight: bold;
+    color: gray;
+}
+
+.social_icon {
+    margin: 4px;
+    color: gray;
+    font-size: 20px;
+}
